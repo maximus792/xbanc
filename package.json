@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "npm start": "node ./app.js",
+    "start": "node ./app.js",
     "dev": "nodemon ./app.js"
   },
   "dependencies": {
