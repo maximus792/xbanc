@@ -1,7 +1,7 @@
 const editJsonFile = require("edit-json-file");
 const express = require("express");
 const path = require("path");
-const { parse } = require("path/posix");
+const { parse } = require("path");
 
 // If the file doesn't exist, the content will be an empty object by default.
 let file = editJsonFile("client/js/data.json");
