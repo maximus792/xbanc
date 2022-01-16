@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Historial</title>
+
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<a
+			class="hamb"
+			data-bs-toggle="offcanvas"
+			href="#offcanvasExample"
+			role="button"
+			aria-controls="offcanvasExample"
+		>
+			<img
+				src="https://img.icons8.com/material-outlined/50/000000/menu.png"
+			/>
+		</a>
+
+		<h1>En creacion!</h1>
+		<div class="container billtable">
+			<table class="table">
+				<tr>
+					<th>1€</th>
+					<th>2€</th>
+					<th>5€</th>
+					<th>10€</th>
+					<th>20€</th>
+					<th>50€</th>
+				</tr>
+				<tr>
+					<td id="e1">0</td>
+					<td id="e2">0</td>
+					<td id="e5">0</td>
+					<td id="e10">0</td>
+					<td id="e20">0</td>
+					<td id="e50">0</td>
+				</tr>
+			</table>
+		</div>
+    <br>
+		<div class="container infotable"></div>
+
+		<div
+			class="offcanvas offcanvas-start"
+			tabindex="-1"
+			id="offcanvasExample"
+			aria-labelledby="offcanvasExampleLabel"
+		>
+			<div class="offcanvas-header">
+				<h5 class="offcanvas-title" id="offcanvasExampleLabel">XBanc</h5>
+				<button
+					type="button"
+					class="btn-close text-reset"
+					data-bs-dismiss="offcanvas"
+					aria-label="Close"
+				></button>
+			</div>
+			<div class="offcanvas-body">
+				<div>¡Aplicación en periodo de prueba!</div>
+				<div class="dropdown mt-3">
+					<ul>
+						<li>
+							<a class="dropdown-item" href="index.html">Gráfica</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="change.html"
+								>Cambiar Balance</a
+							>
+						</li>
+						<li>
+							<a class="dropdown-item selected" href="historial.html"
+								>Historial</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+		<script src="js/historial.js"></script>
+	</body>
+</html>

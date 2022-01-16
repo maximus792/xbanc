@@ -1,0 +1,138 @@
+body {
+  margin: 10px;
+}
+.graphicbox {
+  margin: 0 auto;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  max-height: 30vh;
+}
+
+.dropdown ul {
+  margin: 0;
+  padding: 0;
+}
+.dropdown ul li {
+  list-style: none;
+  margin-bottom: 0.2rem;
+}
+.dropdown ul li a {
+  padding: 1.5rem;
+}
+.hamb {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+}
+.hamb img {
+  width: 2rem;
+}
+.selected {
+  background: rgb(227, 227, 228);
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+}
+.center{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  width: 90vw;
+  height: 85vh;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.top-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bot-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.money-box {
+  height: 10rem;
+  width: 10rem;
+  padding: 7rem;
+  background: rgb(168, 218, 176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 0.5rem;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.money-box:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+@media (max-width: 600px) {
+  .money-box {
+    height: 3rem;
+    width: 3rem;
+    padding: 4rem;
+  }
+}
+.form-switch {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.remove div div {
+  background: rgb(245, 99, 99) !important;
+}
+
+.toast-header img {
+  width: 1.5rem;
+}
+.finalizar{
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+}
+
+.container.table table td{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3vw;
+}
+@media only screen and (min-width: 600px) {
+  .container.table table td{
+    font-size: 1.5rem;
+  }
+}
+.total{
+  font-size: 2rem;
+}
+.billtable{
+  border: 1px solid rgb(172, 171, 171);
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
