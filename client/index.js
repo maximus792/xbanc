@@ -49,6 +49,8 @@ else var color = "rgb(255,0,0)"; */
   chartRender(color, data, totalBalance);
 });
 
+
+
 /* var dades = [
   { date: 1641638185455, amount: 10 },
   { date: 1241638185455, amount: 20 },
